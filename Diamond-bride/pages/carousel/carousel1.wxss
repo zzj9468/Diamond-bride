@@ -1,0 +1,10 @@
+/* pages/carousel/carousel1.wxss */
+.container{
+  padding: 0;
+  width:100%;
+  height:6761rpx;
+}
+image{
+  width:100%;
+  height:100%;
+}

@@ -1,0 +1,45 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+.hot .hot-item{
+  width:364rpx;
+  height: 311rpx;
+  text-align: center;
+  border:2px solid #E5E5E5;
+  padding-top:6rpx;
+  float:left;
+  margin-right:3rpx;
+  margin-bottom:6rpx;
+  font-style: wrap;
+
+}
+
+.hot{
+  text-align: center;
+  position: relative;
+}
+.hot .hot-item image{
+  width:351rpx;
+  height:200rpx;
+}
+.hot .hot-item text{
+  font-size: 25rpx;
+  text-align: left;
+  position:relative;
+  left:-22rpx;
+  top:-15rpx;
+}
+.hot .hot-item text:last-child{
+  position:relative;
+  left:-232rpx;
+  top:40rpx;
+  color:#A25503;
+  font-weight: 600;
+}

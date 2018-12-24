@@ -1,0 +1,74 @@
+.container{
+  padding:0;
+}
+/*功能1 ：轮播图*/
+.slider,
+.slider swiper,
+image{
+  width:100%;
+  height:800rpx;
+}
+/*功能2：四宫格*/
+.index-nav{
+  display: flex;
+  margin-top:10rpx;
+  width:710rpx;
+  justify-content: space-around;
+  border-bottom:3px solid #212121;
+}
+.index-nav .nav-item{
+  width:25%;
+  height:200rpx;
+  box-sizing: border-box;
+  justify-content:center;
+  align-items: center;
+  display: flex;
+  flex-direction:column;
+  font-size: 25rpx;
+
+}
+.index-nav .nav-item image{
+  width:70rpx;
+  height:70rpx;
+  display: inline-block;
+  margin-bottom:25rpx;
+}
+/*功能3，推荐团队*/
+.recommend{
+  width:710rpx;
+  text-align: center;
+  line-height: 120rpx;
+  margin-top:8rpx;
+  border-top:1rpx solid #212121;
+  color:#212121;
+  font-size:40rpx;
+    border-bottom: 1rpx solid #212121;
+}
+/*介绍*/
+.introduce{
+  width:710rpx;
+  margin-bottom: 8rpx;
+  border-top: 1rpx solid #212121;
+
+}
+.introduce .intr_item{
+  margin-bottom: 40rpx
+}
+.introduce .intr_item:nth-child(4){
+  border-bottom: 3px solid #212121;
+  margin-bottom: 0;
+}
+.introduce .intr_item image{
+  height:280rpx;
+}
+/*热卖单品*/
+
+.title{
+  background:#eee;
+  width:100%;
+  color:#212121;
+  text-align: center;
+  margin-top:30rpx;
+  line-height: 40px;
+
+}

@@ -1,0 +1,53 @@
+<!--index.wxml-->
+<view class="container">
+  <view  class='slider'>
+      <swiper autoplay>
+        <swiper-item wx:for='{{list}}' wx:key='index'>
+          <image src='{{item.img_url}}' lazy-load mode='aspectFill' bindtap='handlejump1' data-cid='{{item.cid}}'></image>
+        </swiper-item>
+      </swiper>
+  </view>
+  <!--四宫格  -->
+  <view class='index-nav'>
+    <view class='nav-item' wx:for='{{navlist}}' wx:key='index'>
+      <image src='{{item.img_url}}' lazy-load mode='aspectFill'  bindtap='handleJump2' data-id='{{item.nid}}'></image>
+      <text>{{item.title}}</text>
+    </view>
+  </view>
+  <!--推荐团队  -->
+  <view class='recommend'>  
+    <text>产品推荐&团队</text>
+    <view class='introduce'>
+      <view class='intr_item' wx:for='{{introList}}' wx:key='index'>
+        <image src='{{item.img_url}}'></image>
+      </view>
+    </view>
+   </view>
+
+  <!--热卖单品  -->
+  <view class='title'>
+     <text>热卖单品</text>
+  </view>
+  <view class='hot'>
+    <view class='hot-item'>
+        <image src='http://127.0.0.1:3000/img/index/hot/hot-01.jpg'></image>
+        <text>钻戒——Iris伊尔斯</text>
+        <text>￥23499</text>
+    </view>
+    <view class='hot-item'>
+        <image src='http://127.0.0.1:3000/img/index/hot/hot-01.jpg'></image>
+        <text>钻戒——Iris伊尔斯</text>
+        <text>￥23499</text>
+    </view>  
+    <view class='hot-item'>
+      <image src='http://127.0.0.1:3000/img/index/hot/hot-01.jpg'></image>
+      <text>钻戒——Iris伊尔斯</text>
+      <text>￥23499</text>
+    </view>
+    <view class='hot-item'>
+        <image src='http://127.0.0.1:3000/img/index/hot/hot-01.jpg'></image>
+        <text class='name'>钻戒——Iris伊尔斯</text>
+        <text class='price'>￥23499</text>
+    </view>  
+  </view>
+</view>

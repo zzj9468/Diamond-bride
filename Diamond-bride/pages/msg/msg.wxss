@@ -1,0 +1,7 @@
+/* pages/msg/msg.wxss */
+.section{
+   background:#CABBC7;
+   margin:20rpx;
+   padding:20rpx;
+   display: inline;
+}

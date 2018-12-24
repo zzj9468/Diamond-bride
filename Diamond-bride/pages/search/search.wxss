@@ -1,0 +1,6 @@
+/* pages/search/search.wxss */
+.container{
+  width:750rpx;
+    font-style: nowrap;
+    overflow: hidden;
+}

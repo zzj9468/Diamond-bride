@@ -1,0 +1,5 @@
+/* pages/our/our.wxss */
+.container{
+  padding:0;
+  margin:0;
+}

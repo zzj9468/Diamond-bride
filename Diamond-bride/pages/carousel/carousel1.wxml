@@ -1,0 +1,4 @@
+<!--pages/carousel/carousel1.wxml-->
+<view class='container'>
+  <image src='http://127.0.0.1:3000/img/index/carousel/banner-detail1.jpg'></image>
+</view>
