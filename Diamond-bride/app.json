@@ -1,10 +1,10 @@
 {
   "pages": [
+    "pages/msg/msg",
     "pages/our/our",
     "pages/index/index",
     "pages/logs/logs",
     "pages/search/search",
-    "pages/msg/msg",
     "pages/carousel/carousel1",
     "pages/carousel/carousel2",
     "pages/carousel/carousel3"

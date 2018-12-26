@@ -3,3 +3,63 @@
   padding:0;
   margin:0;
 }
+.container{
+  color:#797979;
+  font-size: 26rpx;
+  padding: 20rpx 0;
+  font-weight: 500;
+  margin:0;
+  font-family: 'Arial Narrow', Arial, sans-serif;
+  font-stretch:ultra-condensed;
+  line-height:45rpx;
+
+}
+.container image{
+  width:100%;
+}
+
+.container .about .about01 view,
+.container .about .about02 view,
+.container .about .about03 view,
+.container .about .about04 view,
+.container .six view,
+.container .eight view,
+.container .new view{
+    text-indent: 25rpx;
+    text-align: left;
+    margin-bottom: 30rpx;
+
+}
+.container .about .about04 view:nth-child(2n){
+  margin:0;
+}
+
+.container .about .about01 view:last-child{
+  margin: 0;
+  padding-bottom: 20rpx;
+}
+.container .about .about01,
+.container .about .about03,
+.container .about .about04,
+.container .six,
+.container .eight
+{
+  border-bottom: 3rpx solid #797979;
+  margin-bottom: 30rpx;
+}
+.container .about .about01 view:first-child,
+.container  .six view:first-child,
+.container .eight view:first-child,
+.container .new view:first-child{
+  font-size:35rpx;
+  text-align: left;
+  font-weight: 700;
+  line-height:40rpx;
+}
+.container .about .about02 view{
+  margin-bottom: 30rpx;
+}
+.container .about .about02{
+  margin-bottom: 25rpx;
+  border-bottom:3rpx solid #797979;
+}
