@@ -3,7 +3,7 @@
   padding:0;
 }
 .section{
-    display: flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
